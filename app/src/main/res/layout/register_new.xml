@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <TextView
+        android:id="@+id/registerform_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_left"
+        android:layout_marginLeft="@dimen/width_thirty"
+        android:paddingTop="@dimen/margin_left"
+        android:text="@string/registration_form"
+        android:textSize="@dimen/register_textsize"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editFullName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_fortyfive"
+        android:layout_below="@+id/registerform_text"
+        android:layout_marginBottom="@dimen/margin_fifteen"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginRight="@dimen/margin_twenty"
+        android:layout_marginTop="@dimen/padding_ten"
+        android:background="@drawable/shape"
+        android:hint="@string/register_fullname"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/margin_left" />
+
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_fortyfive"
+        android:layout_below="@+id/editFullName"
+        android:layout_marginBottom="@dimen/margin_fifteen"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginRight="@dimen/margin_twenty"
+        android:background="@drawable/shape"
+        android:hint="@string/register_email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/margin_left" />
+
+
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_fortyfive"
+        android:layout_below="@+id/editemail"
+        android:layout_marginBottom="@dimen/margin_fifteen"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginRight="@dimen/margin_twenty"
+        android:background="@drawable/shape"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/margin_left" />
+
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_fortyfive"
+        android:layout_below="@+id/editUserName"
+        android:layout_marginBottom="@dimen/margin_fifteen"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginRight="@dimen/margin_twenty"
+        android:background="@drawable/shape"
+        android:hint="@string/register_password"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/margin_left" />
+
+
+    <EditText
+        android:id="@+id/editCPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_fortyfive"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginBottom="@dimen/margin_fifteen"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginRight="@dimen/margin_twenty"
+        android:background="@drawable/shape"
+        android:hint="@string/register_cpassword"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/margin_left" />
+
+
+    <EditText
+        android:id="@+id/editMobile"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_fortyfive"
+        android:layout_below="@+id/editCPassword"
+        android:layout_marginBottom="@dimen/margin_fifteen"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginRight="@dimen/margin_twenty"
+        android:background="@drawable/shape"
+        android:hint="@string/register_mobile"
+        android:inputType="phone"
+        android:paddingLeft="@dimen/margin_left"></EditText>
+
+
+    <Button
+        android:id="@+id/buttonRegisterNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A6A7A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/registerbutton"
+        android:textColor="#8F290A"
+        android:textSize="20sp"
+
+        />
+
+</RelativeLayout>

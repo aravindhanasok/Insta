@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="product_name">
+        <item>"Romano Men's Casual Tee"</item>
+        <item>"Koolpals Men's Casual Tee"</item>
+        <item>"Excalibur Men's Casual Tee"</item>
+        <item>"Devil Men's Slim Fit  Shirt"</item>
+        <item>"Vero Moda  Women's Casual Tee"</item>
+    </string-array>
+    <string-array name="oneproduct">
+        <item>"Romano Men's Casual Tee"</item>
+    </string-array>
+    <string-array name="oneprice">
+        <item>"Rs.499"</item>
+    </string-array>
+
+    <string-array name="product_price">
+        <item>"Rs.499"</item>
+        <item>"Rs.599"</item>
+        <item>"Rs.699"</item>
+        <item>"Rs.799"</item>
+        <item>"Rs.899"</item>
+
+    </string-array>
+    <string name="title_activity_user_login">UserLoginActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginbutton">Log In</string>
+    <string name="registerbutton">Register New User</string>
+    <string name="newregister">Dont have an account ? Click here to   </string>
+    <string name="signup_regisgter"><u> sign up</u></string>
+    <string name="register_fullname">Fullname</string>
+    <string name="register_email">Email Address</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_cpassword">Confirm Password</string>
+    <string name="register_mobile">Mobile Number</string>
+    <string name="registration_form">Please provide below details </string>
+    <string name="username_error">Please enter the Username</string>
+    <string name="password_error">Please enter the Password</string>
+    <string name="password_mismatch">Username and Password does not match!</string>
+    <string name="fullname_error">Please enter the Fullname</string>
+    <string name="email_error">Please enter valid Email Address</string>
+    <string name="password_length_error">Password should be atleast of 8 charactors</string>
+    <string name="cpassword_error">Please enter the  confirm Password</string>
+    <string name="cpassword_mismatch">Passwords do not match!</string>
+    <string name="mobile_error">Please enter the Mobile Number</string>
+    <string name="product_added">Product has been added from favorites </string>
+
+    <string name="product_removed">Product has been removed from favorites </string>
+
+    <string name="Shirts">Shirts and Tees</string>
+
+    <string name="button_addtocart">Add To Cart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="account_option">My Account</string>
+    <string name="orders_option">My Orders</string>
+    <string name="rewards_option">My Rewards</string>
+    <string name="wishlist_option">My Wishlist</string>
+
+    <string name="show_pwd">Show Password</string>
+    <string name="account_select">Accounts Selected</string>
+    <string name="wishlist_select">Wishlist Selected</string>
+    <string name="orders_select">Orders Selected</string>
+    <string name="rewards_select">Rewards Selected</string>
+    <string name="ok_button">OK</string>
+    <string name="user_credentials_dialog">Entered user credentials are incorrect. Please provide correct credentials </string>
+</resources>

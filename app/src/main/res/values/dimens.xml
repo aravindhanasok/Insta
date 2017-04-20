@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="padding_ten">10dp</dimen>
+    <dimen name="width_hundred">130dp</dimen>
+    <dimen name="margin_two">2dp</dimen>
+    <dimen name="padding_five">5dp</dimen>
+    <dimen name="margin_left">20dp</dimen>
+    <dimen name="text_twentytwo">22dp</dimen>
+    <dimen name="text_eighteen">18dp</dimen>
+    <dimen name="text_twelve">7dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="width_thirty">30dp</dimen>
+    <dimen name="height_fortyfive">45dp</dimen>
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="margin_fifteen">15dp</dimen>
+    <dimen name="height_sixty">60dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin_top">10dp</dimen>
+    <dimen name="login_editusername">40dp</dimen>
+    <dimen name="button_layout_width">150dp</dimen>
+    <dimen name="button_textsize">20sp</dimen>
+    <dimen name="button_second_textsize">15sp</dimen>
+    <dimen name="fragment_layout_width">180dp</dimen>
+    <dimen name="fragment_layout_height">130dp</dimen>
+    <dimen name="fragment_margin_left">12dp</dimen>
+    <dimen name="fragment_margi_left">4dp</dimen>
+    <dimen name="homepage_layout_width">400dp</dimen>
+
+    <dimen name="homepage_margin_top">5dp</dimen>
+    <dimen name="homepage_divider">1dp</dimen>
+    <dimen name="homepage_height">200dp</dimen>
+    <dimen name="homepage_layout_height">20dp</dimen>
+    <dimen name="layout_margintop">2dp</dimen>
+    <dimen name="register_textsize">18dp</dimen>
+    <dimen name="register_layout_height">35dp</dimen>
+    <dimen name="image_width">100dp</dimen>
+
+
+    <dimen name="product_display_image">200dp</dimen>
+    <dimen name="product_name_display">15sp</dimen>
+    <dimen name="product_price_display">23sp</dimen>
+    <dimen name="product_description">15sp</dimen>
+    <dimen name="product_review">15sp</dimen>
+</resources>

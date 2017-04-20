@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/display_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/product_display_image"
+        android:layout_alignParentTop="true"
+        android:paddingTop="@dimen/padding_ten"
+        android:src="@drawable/bear_tshirt"
+        />
+
+
+    <TextView
+        android:id="@+id/display_name"
+        style="@style/displace_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display_image"
+        android:layout_marginLeft="@dimen/padding_five"
+        android:gravity="center"
+        android:paddingTop="@dimen/padding_ten"
+        android:text="Romano Men's Casual Tee"
+        />
+
+    <TextView
+        android:id="@+id/display_price"
+        style="@style/displace_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display_name"
+        android:layout_marginLeft="@dimen/padding_five"
+        android:layout_marginTop="@dimen/padding_five"
+        android:text="Rs.1000" />
+
+    <TextView
+        android:id="@+id/description_text"
+        style="@style/displace_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display_price"
+        android:layout_marginLeft="@dimen/padding_five"
+        android:layout_marginTop="@dimen/padding_ten"
+        android:text="Description:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/display_description"
+        style="@style/displace_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_text"
+        android:layout_marginBottom="@dimen/padding_five"
+        android:layout_marginLeft="@dimen/padding_five"
+        android:layout_marginTop="@dimen/padding_five"
+        android:text="description" />
+
+    <TextView
+        android:id="@+id/review_text"
+        style="@style/displace_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display_description"
+        android:layout_marginLeft="@dimen/padding_five"
+        android:text="Ratings and Reviews:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/display_review"
+        style="@style/displace_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/review_text"
+        android:layout_marginLeft="@dimen/padding_five"
+        android:layout_marginTop="@dimen/padding_five"
+        android:text="review"
+        />
+
+    <Button
+        android:id="@+id/addtocartbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A6A7A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/button_addtocart"
+        android:textColor="#8F290A"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
